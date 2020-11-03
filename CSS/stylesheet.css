@@ -1,37 +1,34 @@
 header {
-    float: bottom;
-    padding: 10px;
+    display: flex;
     background-color: aqua;
-    display: block;
-    
+    justify-content: space-between;
 
 }
-.logo {
-    float: left;
-}
 .searchBar{
-    float: center;
-    width: 40%;
-    height: 40px;
+
+    width: 60%;
+    height: 60px;
+    display: block;
     margin: auto;
-    
 }
 .searchBarDiv{
-    float: center;
-    margin: auto;
+    align-self: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto ;
 }
 .loginPic{
     width: 260px;
     height: 80px;
 }
 .login{
-    float: right;
-    display: block;
+
+    right: 10px;
 }
 .login p{
     text-align:  center;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
