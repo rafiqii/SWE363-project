@@ -1,34 +1,102 @@
+body{
+    grid-template-rows:auto auto auto ;
+}
+
+
 header {
+    
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
+    background-image: url("../Pictures/headerBackground.jpg");
+}
 
-}
-.searchBar{
-
-    width: 60%;
-    height: 60px;
-    display: block;
-    margin: auto;
-}
-.searchBarDiv{
-    align-self: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto ;
-}
-.loginPic{
+.loginPic {
     width: 260px;
     height: 80px;
-}
-.login{
 
-    right: 10px;
 }
-.login p{
-    text-align:  center;
+
+.login {
+
+    display: block;
+    align-content: center;
 }
-.logo{
+
+.login p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:purple;
+}
+
+.logo {
+    border-radius: 5px 20px;
     width: 150px;
     height: 150px;
+    margin: 10px 0px 10px 10px;
+}
+
+.searchBar {
+    width: 60%;
+    height: 60px;
+    border-radius: 25px;
+
+    border: none;
+    font-size: 17px;
+}
+
+.searchBarDiv {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.searchButton {
+    height: 40px;
+    width: 80px;
+
+    text-align: center;
+    align-self: center;
+
+    border-radius: 7px;
+    background-color: rgb(55, 255, 162);
+    border: none;
+
+    margin-left:20px ;
+    
+}
+/* End of header CSS =-=-=-=-=-=-=-=-=- and start of main */
+main{
+
+}
+/* End of main CSS =-=-=-=-=-=-=-=-=-=-=-=-=-= start of footer */
+
+footer{
+    display: flex;
+    
+    justify-content: space-between;
+    align-content: center;
+
+    background-image: url("../Pictures/footerBackground.jpg");
+
+    
+}
+.twitterLogo{
+    max-width: 100px;
+    height: 100px;
+    
+}
+footer div{
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+footer p{
+    color: rgb(180, 186, 192);
+
+    font-size: 25px;
+    text-align: center;
+    text-justify: center;
 }
