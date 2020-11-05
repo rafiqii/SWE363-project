@@ -1,5 +1,6 @@
 body{
-    grid-template-rows:auto auto auto ;
+    grid-template-rows:auto auto auto ; /* experimental lol*/
+    margin: 0;
 }
 
 
@@ -7,6 +8,7 @@ header {
     
     display: flex;
     justify-content: space-between;
+
     background-image: url("../Pictures/headerBackground.jpg");
 }
 
@@ -69,7 +71,63 @@ header {
 }
 /* End of header CSS =-=-=-=-=-=-=-=-=- and start of main */
 main{
+    background-image: url("../Pictures/mainBackground.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background-position: bottom;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.outerMainDiv{
+    width: 100%;
+    
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+}
+.topHits{
+    height: 10px;
+    margin-top: -50px;
+    margin-right: -140px;
+    font-size: 40px;
+    color: mediumvioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.borderDiv{
+    border: 2px solid black;
+    border-radius: 10px 30px;
+
+    height: 500px;
+    width: 50%;
+
+    background-color: rgb(240, 237, 237);
+    margin: 0;
+    justify-self: center;
+    
+}
+.song{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.song p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.singer{
+    height: 100px;
+    width: 100px;
 }
 /* End of main CSS =-=-=-=-=-=-=-=-=-=-=-=-=-= start of footer */
 
@@ -78,7 +136,7 @@ footer{
     
     justify-content: space-between;
     align-content: center;
-
+    
     background-image: url("../Pictures/footerBackground.jpg");
 
     
