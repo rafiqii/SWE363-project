@@ -73,10 +73,10 @@ header {
 }
 /* End of header CSS =-=-=-=-=-=-=-=-=- and start of main */
 main{
-    background-image: url("../Pictures/mainBackground.jpg");
+    background-image: url("../Pictures/mainBackground.png");
     height: 721px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: initial;
+    /* background-size: cover; */
 
     justify-content: center;
     align-items: center;
@@ -102,8 +102,9 @@ main{
     margin-top: -50px;
     margin-right: -140px;
     font-size: 40px;
-    color: mediumvioletred;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lime;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+     sans-serif;
 }
 .borderDiv{
     border: 2px solid black;
@@ -173,6 +174,7 @@ footer a{
     border-radius: 10px 20px;
     width: 100%;
     background-color: mintcream;
+    padding: 20px;
     
 
 }
@@ -185,7 +187,7 @@ footer a{
 .emailDiv input{
     margin: 10px;
 
-    width: 245px;
+    width: 100%;
     height: 30px;
 
     border-radius: 5px 10px;
@@ -202,7 +204,7 @@ footer a{
 }
 .passwordDiv input{
     margin: 10px;
-    width: 200px;
+    width: 100%;
     height: 30px;
 
     border-radius: 5px 10px;
@@ -217,7 +219,7 @@ footer a{
 }
 .loginTXT{
     font-size: 30px;
-    color: rgb(100, 21, 21);
+    color: lime;
     font-family: Apple Chancery, cursive; 
     margin-bottom: 10px;  
 }
@@ -231,19 +233,39 @@ footer a{
 .loginButton{
     display: block;
     margin: auto;
-
+    
     margin-top: 20px;
     margin-bottom: 20px;
-
+    
     width: 70px;
     height: 35px;
     
     border-radius: 5px 10px;
     border-width: 1px;
-
+    
     background-color: rgb(55, 255, 162);
 }
-/* =-=-=-=-=-=-=-=-= End of login start of Who we are */
+/* =-=-=-=-=-=-=-=-=-=-= signup */
+.dobDiv p{
+    padding-right: 5px;
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.dobDiv input{
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+    align-self: center;
+}
+.dobDiv{
+    display: flex;
+}
+/* =-=-=-=-=-=-=-=-= End of login/signup start of whoSlashWhat */
 .whoSlashWhatDiv{
     display: block;
     margin: auto;
@@ -269,24 +291,87 @@ footer a{
     font-size: 1.2em;
 }
 
-/*added by Phoenix*/
-.followedArtists{
-    height: 10px;
-    text-align: center;
-    font-size: 40px;
-    color: mediumvioletred;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/*=-=-=-=-=-=-=-=-=-=- End of who/what start of artist page*/
+.outerArtistDiv{
+    width: 95%;
 }
+.topAristElements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    margin-bottom: 10px;
 
-.artistBorderDiv{
-    border: 2px solid black;
-    border-radius: 10px 30px;
+    width: 100%;
+}
+/* midelements */
+.midArtistElements{
+    display: flex;
+    justify-content: space-between;
+}
+.widthContainer{
+    width: 30%;
+}
+.albumsOuterDiv{
+    /* border: 2px solid black; */
+    background-color: mintcream;
+    border-radius: 15px 30px;
 
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.albumsTXT{
+    font-size: 30px;
+    color: lime;
+    font-family: Apple Chancery, cursive; 
+    margin-bottom: 10px; 
+}
+.albumInnerDiv{ 
+    display: flex;
+}
+.albumInnerDiv p{
+    font-size: 20px;
+    margin: 10px;
 
-    background-color: rgb(240, 237, 237);
-    margin: 0;
-    justify-self: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.albumInnerDiv img{
+    border-radius: 50%;
 
+    height: 75px;
+    width: 75px;
+}
+.singerInfoDiv{
+    display: flex;
+}
+.singerInfoDiv img{
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+}
+.singerInfoDiv p{
+    font-size: 30px;
+    margin-left: 10px;
+    color: lime;
+    
+}
+.followersAndFollowing p{
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: lime;
+}
+.songTitle{
+    text-align: center;
+    text-justify: center;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+#audioBar{
+    width: 400px;
+    height: 50px;
+    border-radius: 0%;
+
+    margin-left: 5px;
+    margin-top: 15px;
 }
