@@ -268,3 +268,25 @@ footer a{
     color: blueviolet;
     font-size: 1.2em;
 }
+
+/*added by Phoenix*/
+.followedArtists{
+    height: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: mediumvioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.artistBorderDiv{
+    border: 2px solid black;
+    border-radius: 10px 30px;
+
+    height: 500px;
+    width: 50%;
+
+    background-color: rgb(240, 237, 237);
+    margin: 0;
+    justify-self: center;
+
+}
