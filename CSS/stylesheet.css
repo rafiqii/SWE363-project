@@ -1,5 +1,4 @@
 body{
-    grid-template-rows:auto auto auto ; /* experimental lol*/
     margin: 0;
 }
 
@@ -28,13 +27,16 @@ header {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color:purple;
+    color:blue;
+}
+.login a{
+    text-decoration: none;
 }
 
 .logo {
     border-radius: 5px 20px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
     margin: 10px 0px 10px 10px;
 }
 
@@ -72,7 +74,7 @@ header {
 /* End of header CSS =-=-=-=-=-=-=-=-=- and start of main */
 main{
     background-image: url("../Pictures/mainBackground.jpg");
-    height: 700px;
+    height: 721px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -144,6 +146,9 @@ footer{
 .twitterLogo{
     max-width: 100px;
     height: 100px;
+
+    display: block;
+    margin: auto;
     
 }
 footer div{
@@ -157,4 +162,109 @@ footer p{
     font-size: 25px;
     text-align: center;
     text-justify: center;
+    color: teal;
+}
+footer a{
+    text-decoration: none;
+}
+/* =-=-=-=-=-=-=-=-=-= Login Page */
+.outerLogin{
+    border: 2px solid black;
+    border-radius: 10px 20px;
+    width: 100%;
+    background-color: mintcream;
+    
+
+}
+.outerLogin p{
+    font-size: 15px;
+}
+.emailDiv{
+    display: flex;
+}
+.emailDiv input{
+    margin: 10px;
+
+    width: 245px;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+}
+.emailDiv p{
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.passwordDiv{
+    display: flex;
+}
+.passwordDiv input{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+}
+.passwordDiv p{
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+.loginTXT{
+    font-size: 30px;
+    color: rgb(100, 21, 21);
+    font-family: Apple Chancery, cursive; 
+    margin-bottom: 10px;  
+}
+
+.loginExtras p{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    
+}
+.loginButton{
+    display: block;
+    margin: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 70px;
+    height: 35px;
+    
+    border-radius: 5px 10px;
+    border-width: 1px;
+
+    background-color: rgb(55, 255, 162);
+}
+/* =-=-=-=-=-=-=-=-= End of login start of Who we are */
+.whoSlashWhatDiv{
+    display: block;
+    margin: auto;
+
+    border: 3px solid black;
+    border-radius: 15px 30px;
+    background-color: mintcream;
+    padding-right: 20px;
+
+}
+.whoSlashWhatDiv pre{
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+.whoSlashWhatDiv p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Snell Roundhand, cursive;
+}
+.boldRiNixQi{
+    color: blueviolet;
+    font-size: 1.2em;
 }
