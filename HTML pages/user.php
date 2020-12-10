@@ -12,7 +12,7 @@
     <header>
 
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img alt="Logo" src="../Pictures/Logo.png" class="logo"> </a>
         </div>
         <div class="searchBarDiv">
@@ -22,7 +22,7 @@
         <div>
             <div class="login">
                 <p>
-                    <a href="user.html">M7md187281's page</a>
+                    <a href="user.php">M7md187281's page</a>
                 </p>
                 </a>
             </div>
@@ -105,12 +105,12 @@
 
     <footer>
         <div>
-            <a href="whoAreWe.html">
+            <a href="whoAreWe.php">
                 <p> Who are we</p>
             </a>
         </div>
         <div>
-            <a href="whatIsRiNixQi.html">
+            <a href="whatIsRiNixQi.php">
                 <p>
                     What is RiNixQi
                 </p>

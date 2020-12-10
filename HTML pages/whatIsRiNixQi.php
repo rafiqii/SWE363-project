@@ -14,7 +14,7 @@
     <header>
 
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img alt="Logo" src="../Pictures/Logo.png" class="logo"> </a>
         </div>
         <div class="searchBarDiv">
@@ -23,7 +23,7 @@
         </div>
         <div>
             <div class="login">
-                <a href="login.html">
+                <a href="login.php">
                     <img alt="login pic" src="../Pictures/LoginPicture.png" class="loginPic">
                     <p>
                         Sign in / Sign up
@@ -49,12 +49,12 @@
     </main>
     <footer>
         <div>
-            <a href="whoAreWe.html">
+            <a href="whoAreWe.php">
                 <p> Who are we</p>
             </a>
         </div>
         <div>
-            <a href="whatIsRiNixQi.html">
+            <a href="whatIsRiNixQi.php">
                 <p>
                     What is RiNixQi
                 </p>

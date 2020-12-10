@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <meta name="keywords" content="muisic, albums, artists, User, Login, RiNixQi">
-    <meta name="description" content="Login to listen to free muisic offered on RiNixQi">
+    <meta name="keywords" content="muisic, who, Rico, Rafiqi, Phoenix, RiNixQi">
+    <meta name="description" content="Who created RiNixQi">
     <link href="../CSS/stylesheet.css" rel="stylesheet" type="text/css">
-    <title>Login</title>
+    <title>who are we</title>
     <link href="../Pictures/Logo.png" rel="icon" >
 
 </head>
@@ -14,7 +14,7 @@
     <header>
 
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img alt="Logo" src="../Pictures/Logo.png" class="logo"> </a>
         </div>
         <div class="searchBarDiv">
@@ -23,7 +23,7 @@
         </div>
         <div>
             <div class="login">
-                <a href="login.html">
+                <a href="login.php">
                     <img alt="login pic" src="../Pictures/LoginPicture.png" class="loginPic">
                     <p>
                         Sign in / Sign up
@@ -34,35 +34,35 @@
 
     </header>
     <main>
-        <div>
-            <p class="loginTXT">
-                Login
+        <div class="whoSlashWhatDiv">
+            <p>
+                Who are We?
             </p>
-            <div class="outerLogin">
-                <div>
-                    <div class="emailDiv">
-                        <p>Email: </p> <input type="email" placeholder="JhonDoe@xmail.com">
-                    </div>
-                    <div class="passwordDiv">
-                        <p>Password: </p> <input type="password" placeholder="******">
-                    </div>
-                </div>
-                <button class="loginButton">Login</button>
-                <div class="loginExtras">
-                    <!-- <p>Forgot password?</p> -->
-                    <p> <a href="signUp.html">Dont have an account? Sign up! </a></p>
-                </div>
-            </div>
+            <pre>
+                A group of KFUPM students aspiring to create the new best music app.
+                
+                Meet the team:
+                
+                Rico: The team's software engineer responsible for desging the website's Diagrams
+                So we can build  the front end and back end algorithems.
+
+                PhoeNix: The team's hard working front/back end programmer that also helps in the 
+                set up of the website diagrams.
+
+                RafiQi: Just a humble programmer.
+
+                Special thanks to: Scorch Levant for the logo.
+            </pre>
         </div>
     </main>
     <footer>
         <div>
-            <a href="whoAreWe.html">
+            <a href="whoAreWe.php">
                 <p> Who are we</p>
             </a>
         </div>
         <div>
-            <a href="whatIsRiNixQi.html">
+            <a href="whatIsRiNixQi.php">
                 <p>
                     What is RiNixQi
                 </p>

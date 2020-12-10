@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <meta name="keywords" content="muisic, albums, artists, singers, songs, RiNixQi, Hussein, Al-Jassmi">
-    <meta name="description" content="Listen to Hussein Al-Jassmi for free">
+    <meta name="keywords" content="muisic, albums, artists, singers, songs, RiNixQi, Talal, Madah">
+    <meta name="description" content="Listen to Talal maddah for free">
     <link href="../CSS/stylesheet.css" rel="stylesheet" type="text/css">
-    <title>Hussein Al-Jassmi</title>
+    <title>Talal Maddah</title>
     <link href="../Pictures/Logo.png" rel="icon" >
 
 </head>
@@ -14,7 +14,7 @@
     <header>
 
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img alt="Logo" src="../Pictures/Logo.png" class="logo"> </a>
         </div>
         <div class="searchBarDiv">
@@ -23,7 +23,7 @@
         </div>
         <div>
             <div class="login">
-                <a href="login.html">
+                <a href="login.php">
                     <img alt="login pic" src="../Pictures/LoginPicture.png" class="loginPic">
                     <p>
                         Sign in / Sign up
@@ -39,9 +39,9 @@
             <!-- head of main div -->
             <div class="topAristElements">
                 <div class="singerInfoDiv">
-                    <img src="../Pictures/singer1.jpg" alt="Talal Maddah">
+                    <img src="../Pictures/singer.jpg" alt="Talal Maddah">
                     <p>
-                        Hussein Al-Jassmi
+                        Talal Maddah
                     </p>
                 </div>
                 <button class="searchButton">Follow</button>
@@ -66,13 +66,13 @@
                         <div class="albumsOuterDiv">
                             <!-- this is some dummy data to help visualize when working on JS/JQ -->
                             <div class="albumInnerDiv">
-                                <img alt="albumpic" src="../Pictures/albumCover1.jpg">
-                                <p>Album Paris </p>
+                                <img alt="albumpic" src="../Pictures/albumCover0.jpg">
+                                <p>My wife</p>
                             </div>
                             <hr>
                             <div class="albumInnerDiv">
-                                <img alt="albumpic" src="../Pictures/albumCover1.jpg">
-                                <p>Album Kent Ahbek</p>
+                                <img alt="albumpic" src="../Pictures/albumCover0.jpg">
+                                <p>Ya habibi</p>
                             </div>
                             <hr>
                         </div>
@@ -85,21 +85,21 @@
                         <div class="albumsOuterDiv">
                             <div>
                                 <p class="songTitle">
-                                    Seta El Sobh
+                                    Sa'ab Al Soal
                                 </p>
                                 <div class="albumInnerDiv">
-                                    <img src="../Pictures/songCover3.jpg" alt="Song Picture">
+                                    <img src="../Pictures/songCover0.jpg" alt="Song Picture">
                                     <img src="../Pictures/audioBar.png" alt="audio bar" id="audioBar">
-                                    <!--i do not know to make this bar and moving thingy yet xd-->
+                                    <!--i do not know to make this yet xd-->
                                 </div>
                             </div>
                             <hr>
                             <p class="songTitle">
-                                La Tes'al
+                                Dalem We Laken
                             </p>
                             <div class="albumInnerDiv">
 
-                                <img src="../Pictures/songCover3.jpg" alt="Song Picture">
+                                <img src="../Pictures/songCover1.jpg" alt="Song Picture">
                                 <img src="../Pictures/audioBar.png" alt="audio bar" id="audioBar">
                                 
                             </div>
@@ -114,13 +114,7 @@
                         <div class="albumsOuterDiv">
                             <div class="albumInnerDiv">
                                 <p>
-                                    A new album is coming soon!
-                                </p>
-                            </div>
-                            <hr>
-                            <div class="albumInnerDiv">
-                                <p>
-                                    Thank you for all the support.
+                                    This user has no anouncments.
                                 </p>
                             </div>
                             <hr>
@@ -138,12 +132,12 @@
 
     <footer>
         <div>
-            <a href="whoAreWe.html">
+            <a href="whoAreWe.php">
                 <p> Who are we</p>
             </a>
         </div>
         <div>
-            <a href="whatIsRiNixQi.html">
+            <a href="whatIsRiNixQi.php">
                 <p>
                     What is RiNixQi
                 </p>

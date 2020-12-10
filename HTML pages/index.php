@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +18,7 @@
     <header>
 
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img alt="Logo" src="../Pictures/Logo.png" class="logo"> </a>
         </div>
         <div class="searchBarDiv">
@@ -23,7 +27,7 @@
         </div>
         <div>
             <div class="login">
-                <a href="login.html">
+                <a href="login.php">
                     <img alt="login pic" src="../Pictures/LoginPicture.png" class="loginPic">
                     <p>
                         Sign in / Sign up
@@ -42,7 +46,7 @@
                 <div class="song">
                     <!-- This is some dummy data just so it would be easier to immagine stuff 
                     when we work on server side (php/java script) -->
-                    <a href="Artist.html">
+                    <a href="Artist.php">
                         <img alt="Talal Maddah" src="../Pictures/singer.jpg" class="singer">
                     </a>
                     <p>
@@ -50,7 +54,7 @@
                     </p>
                 </div>
                 <div class="song">
-                    <a href="Artist1.html">
+                    <a href="Artist1.php">
                     <img alt="Hussein Al-Jasmi" src="../Pictures/singer1.jpg" class="singer">
                     </a>
                     <p>
@@ -62,12 +66,12 @@
     </main>
     <footer>
         <div>
-            <a href="whoAreWe.html">
+            <a href="whoAreWe.php">
                 <p> Who are we</p>
             </a>
         </div>
         <div>
-            <a href="whatIsRiNixQi.html">
+            <a href="whatIsRiNixQi.php">
                 <p>
                     What is RiNixQi
                 </p>
