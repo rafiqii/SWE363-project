@@ -7,6 +7,7 @@
     <link href="../CSS/stylesheet.css" rel="stylesheet" type="text/css">
     <title>Sign up</title>
     <link href="../Pictures/Logo.png" rel="icon" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 </head>
 
