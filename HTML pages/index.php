@@ -11,6 +11,8 @@ session_start();
     <link href="../CSS/stylesheet.css" rel="stylesheet" type="text/css">
     <title>RiNixQi homepage</title>
     <link href="../Pictures/Logo.png" rel="icon" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 
 </head>
 
