@@ -311,6 +311,12 @@ footer a{
 .widthContainer{
     width: 30%;
 }
+@media screen and (max-width: 1280px)
+{
+    .midArtistElements{ flex-direction:column; }
+    main{ height:2100px }
+    .widthContainer{ width:100%}
+}
 .albumsOuterDiv{
     /* border: 2px solid black; */
     background-color: mintcream;
